@@ -91,18 +91,26 @@
 
     @media (max-width: 768px) {
     .navbar {
-        flex-direction: column; /* Logo em cima, links embaixo */
-        padding: 15px;
+        flex-direction: column; 
+        padding: 15px 0; /* Espaço em cima e embaixo */
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        font-size: 24px; /* Logo um pouco menor no celular */
     }
 
     .nav-links {
-        margin-top: 15px;
-        gap: 10px;
+        flex-direction: column; /* Links um embaixo do outro */
+        width: 100%;
+        background-color: #2a2a3d; /* Um fundo levemente diferente para destacar */
+        padding: 10px 0;
     }
 
     .nav-links li {
-        margin-left: 0;
-        font-size: 18px; /* Diminui a fonte para não quebrar */
+        margin: 8px 0; /* Espaço entre os links para facilitar o clique com o dedo */
+        font-size: 16px;
     }
 
     .hero h1 {
