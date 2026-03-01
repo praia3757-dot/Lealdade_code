@@ -89,6 +89,43 @@
 
     }
 
+    @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Logo em cima, links embaixo */
+        padding: 15px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        font-size: 18px; /* Diminui a fonte para não quebrar */
+    }
+
+    .hero h1 {
+        font-size: 24px; /* Texto menor para caber na tela */
+        padding: 0 10px;
+    }
+
+    iframe {
+        width: 100%; /* O vídeo ocupa a largura total do celular */
+        height: auto;
+        aspect-ratio: 16 / 9; /* Mantém o formato de vídeo */
+    }
+
+    .container-combos {
+        flex-direction: column; /* Cards um embaixo do outro */
+        align-items: center;
+    }
+
+    .combo {
+        width: 90%; /* Cards ocupam quase toda a largura */
+    }
+}
+
     
 
 
