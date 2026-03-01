@@ -118,19 +118,25 @@
         padding: 0 10px;
     }
 
-    iframe {
-        width: 100%; /* O vídeo ocupa a largura total do celular */
-        height: auto;
-        aspect-ratio: 16 / 9; /* Mantém o formato de vídeo */
+   .secao-precos {
+        padding: 30px 2%; /* Diminuímos o espaço no topo e nas laterais */
+        min-height: auto; /* Força a seção a ter apenas o tamanho do conteúdo */
     }
 
     .container-combos {
-        flex-direction: column; /* Cards um embaixo do outro */
-        align-items: center;
+        gap: 15px; /* Diminui o buraco entre um card e outro */
+        padding-bottom: 20px; /* Espaço sutil no final da lista */
     }
 
     .combo {
-        width: 90%; /* Cards ocupam quase toda a largura */
+        width: 95%; /* Quase a largura toda do celular */
+        margin: 0 auto; /* Centraliza o card perfeitamente */
+        padding: 20px; /* Reduz o preenchimento interno para ganhar espaço */
+    }
+
+    .combo p {
+        height: auto; /* Remove a altura fixa que criava buracos brancos no texto */
+        margin-bottom: 15px;
     }
 }
 
