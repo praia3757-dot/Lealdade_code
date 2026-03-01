@@ -1,0 +1,126 @@
+<style>
+    /* Estilos exclusivos da Tabela Lealdade_code */
+    .secao-precos {
+        padding: 60px 5%;
+        background-color: #1f1f2e; /* Cor que combina com o resto do seu site */
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+        min-height: auto; /* Remove o espaço em branco sobrando */
+    }
+
+    .secao-precos h2 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+        color: #007bff;
+    }
+
+    .subtitulo {
+        margin-bottom: 40px;
+        color: #bbb;
+        font-size: 1.1rem;
+    }
+
+    .container-combos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .combo {
+        background: #2a2a3d;
+        padding: 30px;
+        border-radius: 12px;
+        width: 280px;
+        border: 1px solid #444;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Efeito sutil ao passar o mouse */
+    .combo:hover {
+        border-color: #007bff;
+        background: #31314a;
+    }
+
+    .combo h4 { 
+        font-size: 1.3rem; 
+        margin-bottom: 15px; 
+        color: #fff;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 5px;
+    }
+
+    .combo p { 
+        font-size: 0.9rem; 
+        color: #ccc; 
+        margin-bottom: 20px; 
+        height: 40px; /* Alinha os textos */
+    }
+
+    .preco-setup {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .preco-mensal {
+        display: block;
+        font-size: 0.85rem;
+        color: #28a745; /* Verde para manutenção */
+        margin-top: 5px;
+    }
+
+    .rodape-info {
+        margin-top: 40px;
+        padding: 20px;
+        border-top: 1px style dashed #444;
+    }
+
+    .msg-insta {
+        background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+</style>
+
+<section class="secao-precos">
+    <h2>Tabela de Investimento</h2>
+    <p class="subtitulo">Escolha o plano ideal para o seu negócio</p>
+    
+    <div class="container-combos">
+        <div class="combo">
+            <h4>Start Digital</h4>
+            <p>Site institucional de página única.</p>
+            <span class="preco-setup">R$ 350,00</span>
+            <span class="preco-mensal">+ R$ 100,00/mês*</span>
+        </div>
+
+        <div class="combo">
+            <h4>Business Flow</h4>
+            <p>Landing Page focada em vendas.</p>
+            <span class="preco-setup">R$ 600,00</span>
+            <span class="preco-mensal">+ R$ 150,00/mês*</span>
+        </div>
+
+        <div class="combo">
+            <h4>App Entry</h4>
+            <p>Web App para serviços ou catálogos.</p>
+            <span class="preco-setup">R$ 800,00</span>
+            <span class="preco-mensal">+ R$ 200,00/mês*</span>
+        </div>
+    </div>
+
+    <div class="rodape-info">
+        <p class="msg-insta">Me mande um Direct no Instagram para fechar seu projeto!</p>
+        <p style="font-size: 0.8rem; color: #777; margin-top: 10px;">
+            *A manutenção mensal inicia apenas 30 dias após a entrega do site.
+        </p>
+    </div>
+</section>
